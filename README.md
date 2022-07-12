@@ -16,8 +16,10 @@
 
 ![image](https://user-images.githubusercontent.com/97363077/178458945-f4632ad1-c22a-4fa8-98e9-a92d9f7fde3b.png)
 
+После ввода новой задачи и нажатия кнопки "Сохранить":
 ![image](https://user-images.githubusercontent.com/97363077/178459605-16ee5076-93b7-4ad4-820f-ae663484b519.png)
 
+задача добавляется в конец списка "Надо выполнить":
 ![image](https://user-images.githubusercontent.com/97363077/178459978-38c8ef82-e14e-44a4-900b-ddd56d8993e7.png)
 
 
