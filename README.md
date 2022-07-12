@@ -21,6 +21,7 @@
 
 задача добавляется в конец списка "Надо выполнить":
 ![image](https://user-images.githubusercontent.com/97363077/178459978-38c8ef82-e14e-44a4-900b-ddd56d8993e7.png)
+<img src="https://user-images.githubusercontent.com/97363077/178459978-38c8ef82-e14e-44a4-900b-ddd56d8993e7.png" width="600">
 
 
 Приложение позволяет выполнять следующие действия:
