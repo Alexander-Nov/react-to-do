@@ -1,0 +1,97 @@
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.popup_is-opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__form {
+  position: relative;
+  width: 450px;
+  min-height: 100px;
+  margin: 200px auto auto auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+.popup__closeButton {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  background-color: transparent;
+  background-image: url('../../images/close-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32px, 32px;
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+
+.popup__closeButton:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.popup__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  margin: 0 0 11px 0;
+  padding: 0;
+  color: black;
+}
+
+.popup__fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.popup__input {
+  width: 300px;
+  height: 27px;
+  border: 0;
+  border-bottom: 1px solid #000000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 0 2px 0;
+  padding: 0;
+  padding-bottom: 3px;
+}
+
+.popup__submitButton {
+  width: 100px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+  margin: 0 0 0 10px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 17px;
+  border: none;
+}
+
+.popup__submitButton:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

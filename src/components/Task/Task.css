@@ -1,0 +1,61 @@
+.task {
+  margin: 5px 0 5px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.task_checked {
+  text-decoration: line-through;
+}
+
+.task__id {
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.task__checkBox {
+  margin: 0 8px 0 0;
+}
+
+.task__taskLine {
+  margin: 0;
+  padding: 0;
+}
+
+.task__btnGroup {
+  display: flex;
+  justify-self: flex-end;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+  padding: 0;
+}
+
+.task__editBtn {
+  background-image: url('../../images/icon-edit.png');
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.task__deleteBtn {
+  margin: 0;
+  background-image: url('../../images/trash-icon.png');
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+}

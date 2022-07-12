@@ -1,0 +1,16 @@
+.header {
+  margin: 0;
+  padding: 0;
+  min-height: 120px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,32 @@
+.addNewTask {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.addNewTask_title {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.addNewTask_controlGroup {
+  display: flex;
+  width: 100%;
+  justify-items: flex-start;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.addNewTask__input {
+  margin: 0 15px 0 0;
+  padding: 0;
+  width: 80%;
+}
+
+.addNewTask__button {
+  width: 20%;
+  height: 40px;
+}
