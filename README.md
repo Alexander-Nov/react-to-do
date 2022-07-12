@@ -12,15 +12,16 @@
 ### О проекте
 Проект предназначен для отработки навыков программирования на языке JavaScript с использованием бибилиотеки React и представляет собой приложение для создания списка задач, которые надо выполнить.
 
-![image](https://user-images.githubusercontent.com/97363077/178458775-f35b6785-b097-420d-92b8-fe6a216c016b.png)
+Общий вид страницы:
+<img src="https://user-images.githubusercontent.com/97363077/178458775-f35b6785-b097-420d-92b8-fe6a216c016b.png" width="600">
 
-![image](https://user-images.githubusercontent.com/97363077/178458945-f4632ad1-c22a-4fa8-98e9-a92d9f7fde3b.png)
+Перемещение выполненной задачи в список "Выполнено":
+<img src="https://user-images.githubusercontent.com/97363077/178458945-f4632ad1-c22a-4fa8-98e9-a92d9f7fde3b.png" width="600">
 
 После ввода новой задачи и нажатия кнопки "Сохранить":
-![image](https://user-images.githubusercontent.com/97363077/178459605-16ee5076-93b7-4ad4-820f-ae663484b519.png)
+<img src="https://user-images.githubusercontent.com/97363077/178459605-16ee5076-93b7-4ad4-820f-ae663484b519.png" width="600">
 
 задача добавляется в конец списка "Надо выполнить":
-![image](https://user-images.githubusercontent.com/97363077/178459978-38c8ef82-e14e-44a4-900b-ddd56d8993e7.png)
 <img src="https://user-images.githubusercontent.com/97363077/178459978-38c8ef82-e14e-44a4-900b-ddd56d8993e7.png" width="600">
 
 
