@@ -7,9 +7,6 @@ const Header = () => {
       <span className="header__title">
         To-Do React App Demo by Alexander Novoselov
       </span>
-      <div>
-        Цветовая тема
-      </div>
     </header>
   );
 };
