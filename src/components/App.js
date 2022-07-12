@@ -21,22 +21,22 @@ function App() {
 
   function handleTaskDelete(taskToDeleteId) {
     const newTasks = toDoTasks.map((t) => t);
-    let delLine = toDoTasks.findIndex(element => element.id === taskToDeleteId);
-    newTasks.splice(delLine, 1);
+    let delPosition = toDoTasks.findIndex(element => element.id === taskToDeleteId);
+    newTasks.splice(delPosition, 1);
     setToDoTasks(newTasks);
   }
 
   function handleTaskDeleteFromDoneList(taskToDeleteId) {
     const newDelTasks = doneTasks.map((t) => t);
-    let delLine = doneTasks.findIndex(element => element.id === taskToDeleteId);
-    newDelTasks.splice(delLine, 1);
+    let delPosition = doneTasks.findIndex(element => element.id === taskToDeleteId);
+    newDelTasks.splice(delPosition, 1);
     setDoneTasks(newDelTasks);
   }
 
   function handleTaskIsChecked(taskIsDoneId) {
     const newTasks = toDoTasks.map((t) => t);
-    let delLine = toDoTasks.findIndex(element => element.id === taskIsDoneId);
-    const doneTask = newTasks.splice(delLine, 1);
+    let delPosition = toDoTasks.findIndex(element => element.id === taskIsDoneId);
+    const doneTask = newTasks.splice(delPosition, 1);
     setToDoTasks(newTasks);
 
     let maxId = 0;
@@ -51,8 +51,8 @@ function App() {
 
   function handleTaskIsUncheckedFromDoneList(taskIsDoneId) {
     const newTasks = doneTasks.map((t) => t);
-    let delLine = newTasks.findIndex(element => element.id === taskIsDoneId);
-    const uncheckedTask = newTasks.splice(delLine, 1);
+    let delPosition = newTasks.findIndex(element => element.id === taskIsDoneId);
+    const uncheckedTask = newTasks.splice(delPosition, 1);
     setDoneTasks(newTasks);
 
     let maxId = 0;
@@ -96,7 +96,7 @@ function App() {
       />
 
       <ToDoList
-        taskListName="Надо выполнить"
+        taskListName="Задачи"
         tasks={toDoTasks}
         isChecked={false}
         onTaskDelete={handleTaskDelete}

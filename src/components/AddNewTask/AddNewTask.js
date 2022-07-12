@@ -5,7 +5,8 @@ const AddNewTask = ({tasks, onSubmit}) => {
 
   const [taskTitle, setTaskTitle] = React.useState("");
 
-  const handleAddTask = () => {
+  const handleAddTask = (e) => {
+    e.preventDefault();
     let maxId = 0;
   tasks.map((task) => {
     if (task.id > maxId) {maxId = task.id}
@@ -19,19 +20,19 @@ const AddNewTask = ({tasks, onSubmit}) => {
   }
 
   return (
-    <div className="addNewTask">
+    <section className="addNewTask">
       <p className="addNewTask_title">Добавить задачу:</p>
-      <div className="addNewTask_controlGroup">
+      <form className="addNewTask_controlGroup" onSubmit={handleAddTask}>
         <input className="addNewTask__input" value={taskTitle} onChange={handleTaskChange}/>
         <button
           className="addNewTask__button"
-          type="button"
-          onClick={handleAddTask}
+          type="submit"
+          disabled={(taskTitle.length > 0) ? false : true}
         >
           Добавить
         </button>
-      </div>
-    </div>
+      </form>
+    </section>
 
   );
 };

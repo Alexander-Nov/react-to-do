@@ -28,5 +28,8 @@
 
 .addNewTask__button {
   width: 20%;
+  min-width: 75px;
   height: 40px;
+  margin: 0;
+  padding: 0;
 }

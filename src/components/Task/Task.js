@@ -23,7 +23,7 @@ function Task(props) {
         checked={props.isChecked}
         onChange={handleSetCheckBox}
       />
-      <p className="task__taskLine">{props.title}</p>
+      <p className="task__taskTitle">{props.title}</p>
       <div className="task__btnGroup">
         {!props.isChecked ? (<button className="task__editBtn" onClick={handleEditTask}></button>) : (<></>)}
         <button className="task__deleteBtn" onClick={handleTaskDelete}></button>

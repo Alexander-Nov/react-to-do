@@ -8,7 +8,7 @@
   background: rgba(0, 0, 0, 0.8);
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0.5s, opacity 0.5s linear;
+  transition: visibility 0.3s, opacity 0.3s linear;
 }
 
 .popup_is-opened {
